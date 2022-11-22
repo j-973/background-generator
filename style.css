@@ -1,0 +1,44 @@
+body {
+	font-family: 'Squada One', cursive;
+	font-size: 30px;
+	font-weight:  bold;
+	text-align: center;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right, #FFFFFF, #000000);
+}
+
+#wrap {
+	display: flex;
+	flex-flow: column wrap;
+	margin: 0 auto;
+	width: 80%;
+}
+
+h1, h2, h3 {
+	background-color:  rgba(255, 255, 255, .4);
+}
+
+h3 {
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+}
+
+#colorSet, {
+	align-content: center;
+	justify-content: center;
+}
+
+input[type=color] {
+	width: 10rem;
+	height: 10rem;
+	margin: 20px;
+}
+
+button {
+	font-family: 'Arial', sans-serif;
+	font-size: 24px;
+	font-weight: bolder;
+	padding: 10px;
+	margin: 2.5%;
+}
